@@ -10,5 +10,8 @@ export const mutations = {
     },
     addMovie(state, payload) {
         state.movies.push(payload);
+    },
+    setSearchText(state, searchText) {
+      state.searchText = searchText;
     }
 }
